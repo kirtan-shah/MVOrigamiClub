@@ -8,30 +8,57 @@ body {
 }
 
 #jumbotron-home {
-    background-color: #00000000;
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    border-radius: 0.3rem;
+    /*background-color: blue;
+    height: 500px;*/
+}
+#jumbo-text {
+  padding: 200px 0;
+  background: transparent;
+  display: inline-block;
+}
+#jumbo-wrap {
+  background: radial-gradient(ellipse, rgba(24,182,108,1) 60%, rgba(24,182,108,0) 70%);
 }
 
 #content-back {
   width: 100%;
   height: auto;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.75);
   padding: 3em;
 }
 
 #content {
+
+
+
 }
-/*
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  background: white;
+
+#blog-btn {
+  margin-left: .5em;
+  background: #ffd635;
+  color: white;
+  outline: none;
+  border: none;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.5;
+  border-radius: 0.25rem;
 }
-*/
+#blog-btn:hover {
+  color: #ffffff9f;
+  text-decoration: none;
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+    width: 100%;
+    height: 100%;
+}
 
 .menu {
     margin-top: 14px;
@@ -81,6 +108,9 @@ footer p.copyright-text a:hover {
 }
 
 .nav-purple {
+    position: absolute;
+    top: 0;
+    width: 100%;
     background-color: rgb(100, 40, 160, 0);
 }
 .nav-purple .navbar-brand {
