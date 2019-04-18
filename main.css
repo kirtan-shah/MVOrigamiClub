@@ -1,6 +1,87 @@
+html, body {
+  margin: 0;
+  padding: 0 0 60px 0;
+  height: 100%;
+}
+body {
+  background: #18b66c;
+}
+
+#jumbotron-home {
+    background-color: #00000000;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+
+#content-back {
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 3em;
+}
+
+#content {
+}
+/*
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: white;
+}
+*/
+
+.menu {
+    margin-top: 14px;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu li a {
+    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu li a:hover,
+.menu li a:focus {
+    background: none;
+}
+
+
+footer {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 50px 0px;
+}
+
+footer .footer-logo {
+    color: #555;
+}
+
+footer p.copyright-text {
+    font-weight: 300;
+    font-size: 12px;
+    color: #888;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+
+footer p.copyright-text a {
+    color: #282828;
+}
+
+footer p.copyright-text a:hover {
+    text-decoration: none;
+}
 
 .nav-purple {
-    background-color: rgb(100, 40, 160);
+    background-color: rgb(100, 40, 160, 0);
 }
 .nav-purple .navbar-brand {
     color: #ffd635;
