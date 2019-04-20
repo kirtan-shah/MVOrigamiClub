@@ -34,21 +34,30 @@ body {
 }
 
 #blog-btn {
-  margin-left: .5em;
-  background: #ffd635;
+  margin-left: .4em;
+  background: transparent;
   color: white;
   outline: none;
-  border: none;
+  border: 2px solid white;
   display: inline-block;
   font-weight: 400;
   text-align: center;
   vertical-align: middle;
   line-height: 1.5;
   border-radius: 0.25rem;
+  transition: 250ms all;
 }
 #blog-btn:hover {
-  color: #ffffff9f;
+  background: #ffd635;
+  color: black;
+  border: 2px solid black;
   text-decoration: none;
+}
+
+#section2 {
+  background-color: rgb(240, 82, 84, .8);
+  height: 400px;
+  width: 100%;
 }
 
 #particles-js {
@@ -58,61 +67,4 @@ body {
     z-index: -1000;
     width: 100%;
     height: 100%;
-}
-
-.menu {
-    margin-top: 14px;
-}
-
-.menu li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-.menu li a {
-    color: #444;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.menu li a:hover,
-.menu li a:focus {
-    background: none;
-}
-
-
-footer {
-    text-align: center;
-    background: #f4f4f4;
-    padding: 50px 0px;
-}
-
-footer .footer-logo {
-    color: #555;
-}
-
-footer p.copyright-text {
-    font-weight: 300;
-    font-size: 12px;
-    color: #888;
-    letter-spacing: 3px;
-    margin-top: 15px;
-}
-
-footer p.copyright-text a {
-    color: #282828;
-}
-
-footer p.copyright-text a:hover {
-    text-decoration: none;
-}
-
-.nav-purple {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    background-color: rgb(100, 40, 160, 0);
-}
-.nav-purple .navbar-brand {
-    color: #ffd635;
 }
